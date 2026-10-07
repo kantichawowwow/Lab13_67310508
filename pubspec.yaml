@@ -30,6 +30,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  sqflite: ^2.4.2        # แพ็กเกจสำหรับ SQLite
+  path: ^1.9.1           # สำหรับ join() ไดเรกทอรี
+  provider: ^6.1.5+1     # สำหรับ State Management
+  intl: ^0.20.2          # สำหรับจัดรูปแบบ วันที่ และ ตัวเลข
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
